@@ -1,4 +1,4 @@
-# robotframework-setup
+# robotframework
 
 ### Install Python2 Or Python3
 ### Install PIP
@@ -31,3 +31,18 @@ Python3
 ```bash
 pip install future
 pip install -U https://github.com/HelioGuilherme66/robotframework-selenium2library/archive/v1.8.0b1.tar.gz
+```
+
+## Using other browser
+Selenium comes with Firefox Driver by default but we can use another browser as well by dowload other web driver 
+
+### Chrome
+Download from https://sites.google.com/a/chromium.org/chromedriver/downloads 
+
+### Internet Explorer
+Download from http://www.seleniumhq.org/download/
+
+Then copy Web Driver executable file to our project 
+```
+cp chromedriver /path/to/project/env/bin/.
+```
